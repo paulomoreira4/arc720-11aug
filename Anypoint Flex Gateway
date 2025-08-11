@@ -1,0 +1,18 @@
+Anypoint Flex Gateway
+What is / Description
+Anypoint Flex Gateway is MuleSoft's ultra-fast, lightweight API gateway built on Envoy, purpose-built to manage and secure APIs—both Mule and non-Mule—regardless of where they run or what technology stack they use. It integrates seamlessly with DevOps and CI/CD workflows and supports a wide range of deployment environments, including Linux, Docker, Kubernetes, cloud-native platforms, and even AI services.MuleSoft DocumentationSalesforceMulesoft
+Flex Gateway operates in two modes:
+•	Connected Mode: Integrated with the Anypoint Control Plane, enabling centralized management, observability, policy enforcement via API Manager, and deployment via Runtime Manager.MuleSoft DocumentationSalesforce
+•	Local Mode: Runs independently with local, declarative configuration files—ideal for CI/CD pipelines or air-gapped environments.MuleSoft Documentation
+Deployment options are flexible, including:
+•	Managed Flex Gateway on CloudHub 2.0—fully hosted by MuleSoft with auto-scaling, high availability, and minimal operational overhead.
+•	Self-Managed Flex Gateway—deployable on-premises, in containers, as a Kubernetes Ingress controller, or other Linux environments, with logging, rate-limiting, and caching capabilities integrated via Fluent Bit.MuleSoft Documentation
+ 
+Why / Use-case
+•	High performance and scalability: Supports up to 1,000 backend APIs per gateway, with recommendations for using multiple replicas to ensure high availability and performance.MuleSoft Documentation
+•	Universal API management: Enables governance, security, and observability across all APIs—including those not built on Mule—through a consistent control plane.MuleSoft DocumentationMulesoft
+•	Flexible deployment and DevOps integration: Deploy Flex Gateway using your preferred method—Docker, Kubernetes, Linux, or CloudHub—while integrating smoothly into CI/CD pipelines and covering both connected and local configuration workflows.MuleSoft DocumentationMulesoftHeroku
+•	Enables zero-trust and AI security: Lightweight but powerful security, including authentication, authorization, encryption, rate-limiting, and zero-trust by default—especially useful when managing AI services and large-scale API ecosystems.MulesoftSalesforce
+•	Strong logging and observability: Self-managed deployments include Fluent Bit for log output and integration with analytics platforms (e.g., Splunk, New Relic), plus external storage options for distributed rate-limiting and caching.MuleSoft Documentation
+•	Custom policy support: Use Rust WASM SDKs to develop and deploy custom policies for advanced use cases—enabling granular control and the ability to address domain-specific requirements like compliance or AI-focused security.SalesforceMuleSoft Documentation
+
