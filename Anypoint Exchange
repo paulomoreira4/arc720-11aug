@@ -1,0 +1,12 @@
+Anypoint Exchange
+What Is / Description
+Anypoint Exchange is MuleSoft’s centralized, curated catalog of reusable integration assets within the Anypoint Platform. It hosts a wide range of resources—such as APIs, API groups, API specification fragments, custom components, connectors, policies, RPA assets, rulesets, templates, examples, and even GraphQL APIs—designed to be discovered, shared, and reused across development teams MuleSoft DocumentationMulesoft.
+From Exchange, developers can browse and import assets provided by MuleSoft, their organization, or partners, right into Anypoint Studio, API Manager, or other components of the platform MuleSoft Documentation+1. Exchange also offers capabilities such as auto-generated documentation, mocking services for API testing, developer portals, and asset usage metrics MuleSoft Documentation.
+Why / Use-case
+•	Accelerate Development: Developers can tap into pre-built assets—connectors, templates, and examples—rather than building from scratch. This speeds up delivery and reduces redundant work Mulesoftoneio.cloud.
+•	Promote Reuse and Consistency: Exchange serves as a single source of truth where best practices and approved components are shared. This ensures consistency across projects and across teams Mulesoft.
+•	Enhance Collaboration: Teams can browse, discover, and validate APIs and other assets through Exchange, including the use of mocking services to test APIs before implementation. This fosters early feedback loops and cross-team alignment Mulesoft.
+•	Governance and Discoverability: Assets published to Exchange support visibility, version control, dependency mapping, and role-based access controls. Organizations can manage who can view, contribute to, or administer assets MulesoftMuleSoft Documentation.
+•	Developer Onboarding & Self-Service: New developers can quickly get up to speed by exploring Exchange. The platform supports auto-generated developer portals (via API Community Manager), enabling self-serve access to assets and documentation Mulesoft.
+•	Simplified Asset Testing: For REST APIs, teams can use the built-in mocking service within Exchange to simulate API interactions—ideal for testing before the actual implementation is complete MuleSoft Documentation.
+
